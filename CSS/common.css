@@ -55,9 +55,11 @@ body > p {
   }
 }
 .game-container {
-  margin-top: 100px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   
 }
+
 
 .timer {
   margin-bottom: 16px;
@@ -191,5 +193,8 @@ form button:hover {
 
 .scores-table th {
   background-color: #1f2a44;
+  color: white;
+}
+.nav-title {
   color: white;
 }
